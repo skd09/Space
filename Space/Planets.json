@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Mercury",
+        "desc": "Mercury is the smallest planet in the Solar System and the closest to the Sun.",
+        "image": "Img_Mercury",
+    },
+    {
+        "id": 2,
+        "name": "Venus",
+        "desc": "Venus is the second planet from the Sun. It is sometimes called Earth's 'sister'.",
+        "image": "Img_Venus",
+    },
+    {
+        "id": 3,
+        "name": "Earth",
+        "desc": "Earth is the third planet from the Sun and the only place known in the universe with life.",
+        "image": "Img_Earth",
+    },
+    {
+        "id": 4,
+        "name": "Mars",
+        "desc": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System.",
+        "image": "Img_Mars",
+    },
+    {
+        "id": 5,
+        "name": "Jupiter",
+        "desc": "Jupiter is the fifth planet from the Sun and the largest in the Solar System.",
+        "image": "Img_Jupiter",
+    },
+    {
+        "id": 6,
+        "name": "Saturn",
+        "desc": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter.",
+        "image": "Img_Saturn",
+    },
+    {
+        "id": 7,
+        "name": "Uranus",
+        "desc": "Uranus is the seventh planet from the Sun, and has the third-largest diameter in our solar system.",
+        "image": "Img_Uranus",
+    },
+    {
+        "id": 8,
+        "name": "Neptune",
+        "desc": "Neptune is the eighth planet from the Sun and the farthest known planet in the Solar System. ",
+        "image": "Img_Neptune",
+    },
+]
+
