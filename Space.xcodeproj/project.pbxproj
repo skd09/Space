@@ -11,12 +11,12 @@
 		2F7EF50229B59955009CE4D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EF50129B59955009CE4D9 /* ContentView.swift */; };
 		2F7EF50429B59956009CE4D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7EF50329B59956009CE4D9 /* Assets.xcassets */; };
 		2F7EF50729B59956009CE4D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7EF50629B59956009CE4D9 /* Preview Assets.xcassets */; };
-		2F7EF50C29B59956009CE4D9 /* Space.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EF50A29B59956009CE4D9 /* Space.xcdatamodeld */; };
 		2F7EF51529B5B572009CE4D9 /* SpaceCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EF51429B5B572009CE4D9 /* SpaceCardItem.swift */; };
 		2F7EF51729B5B5F7009CE4D9 /* SpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EF51629B5B5F7009CE4D9 /* SpaceView.swift */; };
 		2F7EF51A29B5BD67009CE4D9 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EF51929B5BD67009CE4D9 /* Planet.swift */; };
 		2F7EF51C29B5C02D009CE4D9 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EF51B29B5C02D009CE4D9 /* ModelData.swift */; };
 		2F7EF51F29B5C1AC009CE4D9 /* Planets.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F7EF51829B5B720009CE4D9 /* Planets.json */; };
+		2F9435B929B999AA0016C72D /* PlanetDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9435B829B999AA0016C72D /* PlanetDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,13 +25,12 @@
 		2F7EF50129B59955009CE4D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F7EF50329B59956009CE4D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F7EF50629B59956009CE4D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2F7EF50B29B59956009CE4D9 /* Space.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Space.xcdatamodel; sourceTree = "<group>"; };
 		2F7EF51429B5B572009CE4D9 /* SpaceCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceCardItem.swift; sourceTree = "<group>"; };
 		2F7EF51629B5B5F7009CE4D9 /* SpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceView.swift; sourceTree = "<group>"; };
 		2F7EF51829B5B720009CE4D9 /* Planets.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Planets.json; sourceTree = "<group>"; };
 		2F7EF51929B5BD67009CE4D9 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		2F7EF51B29B5C02D009CE4D9 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		2F7EF51D29B5C15E009CE4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2F9435B829B999AA0016C72D /* PlanetDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,17 +63,16 @@
 		2F7EF4FE29B59955009CE4D9 /* Space */ = {
 			isa = PBXGroup;
 			children = (
-				2F7EF51D29B5C15E009CE4D9 /* Info.plist */,
 				2F7EF4FF29B59955009CE4D9 /* SpaceApp.swift */,
 				2F7EF50129B59955009CE4D9 /* ContentView.swift */,
 				2F7EF50329B59956009CE4D9 /* Assets.xcassets */,
-				2F7EF50A29B59956009CE4D9 /* Space.xcdatamodeld */,
 				2F7EF50529B59956009CE4D9 /* Preview Content */,
 				2F7EF51429B5B572009CE4D9 /* SpaceCardItem.swift */,
 				2F7EF51629B5B5F7009CE4D9 /* SpaceView.swift */,
 				2F7EF51829B5B720009CE4D9 /* Planets.json */,
 				2F7EF51929B5BD67009CE4D9 /* Planet.swift */,
 				2F7EF51B29B5C02D009CE4D9 /* ModelData.swift */,
+				2F9435B829B999AA0016C72D /* PlanetDetailsView.swift */,
 			);
 			path = Space;
 			sourceTree = "<group>";
@@ -160,10 +158,10 @@
 			files = (
 				2F7EF50229B59955009CE4D9 /* ContentView.swift in Sources */,
 				2F7EF51529B5B572009CE4D9 /* SpaceCardItem.swift in Sources */,
-				2F7EF50C29B59956009CE4D9 /* Space.xcdatamodeld in Sources */,
 				2F7EF51A29B5BD67009CE4D9 /* Planet.swift in Sources */,
 				2F7EF50029B59955009CE4D9 /* SpaceApp.swift in Sources */,
 				2F7EF51729B5B5F7009CE4D9 /* SpaceView.swift in Sources */,
+				2F9435B929B999AA0016C72D /* PlanetDetailsView.swift in Sources */,
 				2F7EF51C29B5C02D009CE4D9 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,19 +365,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2F7EF50A29B59956009CE4D9 /* Space.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2F7EF50B29B59956009CE4D9 /* Space.xcdatamodel */,
-			);
-			currentVersion = 2F7EF50B29B59956009CE4D9 /* Space.xcdatamodel */;
-			path = Space.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 2F7EF4F429B59955009CE4D9 /* Project object */;
 }

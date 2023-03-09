@@ -9,7 +9,6 @@ import SwiftUI
 import Foundation
 
 struct SpaceView: View {
-    
     var body: some View {
         ZStack(alignment: .topLeading){
             Color.clear.background(

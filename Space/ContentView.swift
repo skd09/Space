@@ -10,7 +10,9 @@ import CoreData
 
 struct ContentView: View {
     var body: some View {
-        SpaceView()
+        NavigationView {
+            SpaceView()
+        }
     }
 }
 

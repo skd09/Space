@@ -32,17 +32,21 @@ struct SpaceCardItem: View {
                         .padding(.horizontal, 30)
                         .lineLimit(3)
                     
-                    
-                    Button {
-                        
+                    NavigationLink {
+                        PlanetDetailsView(
+                            image: .constant(image),
+                            planet: .constant(planet),
+                            desc: .constant(desc)
+                        )
                     } label: {
                         Image(systemName: "arrow.right")
-                            .foregroundColor(.white)
-                            .padding(30)
-                            .background(Color("Color_Dark_Gray"))
-                            .clipShape(Circle())
+                        .foregroundColor(.white)
+                        .padding(30)
+                        .background(Color("Color_Dark_Gray"))
+                        .clipShape(Circle())
+                        .padding(.bottom, 20)
                     }
-                    .padding(.bottom, 20)
+
                 }
                 .background(Color("Color_OffWhite"))
                 .cornerRadius(30)
@@ -67,6 +71,8 @@ struct SpaceCardItem: View {
 
 struct SpaceCardItem_Previews: PreviewProvider {
     static var previews: some View {
-        SpaceCardItem()
+        NavigationView {
+            SpaceCardItem()
+        }
     }
 }
